@@ -15,10 +15,7 @@ const Nav = () => {
     return (
         <header className='header'>
             <nav className='nav container'>
-                <a href="#home" className='nav__logo'>
-                    <img src="https://user-images.githubusercontent.com/82244776/137649850-db7e8b2e-36cb-420e-8493-7d93c712990d.png" alt="Portfolio logo" />
-                </a>
-
+   
                 <div id='nav-menu' className='nav__menu'>
                     <ul className='nav__list'>
                         <li className='nav__item' onClick={handleNavClose}>
