@@ -1,4 +1,5 @@
-// import { FaFile } from 'react-icons/fa'
+import Pdf from '../../assets/Resume.pdf';
+import { FaFile } from 'react-icons/fa'
 
 const About = () => {
     return (
@@ -20,11 +21,11 @@ const About = () => {
                             Full-Stack Web Developer, a graduate of `The Coding Bootcamp At UNC-Chapel Hill` with a special appreciation for back-end projects and a life-long dedication to learning. Determined to improve in all aspects of life and known amongst peers for having an eye for detail and being skilled at problem-solving no matter the complexity of the project.
                         </p>
                         {/* going to add my resume here */}
-                        {/* <a href={Pdf} target='_blank' rel="noreferrer" className='button button--flex' download>
+                        <a href={Pdf} target='_blank' rel="noreferrer" className='button button--flex' download>
                             <span className='button--flex'>
                                 <FaFile className='button__icon' /> My resume
                             </span>
-                        </a> */}
+                        </a>
                     </div>
                 </div>
             </div>
